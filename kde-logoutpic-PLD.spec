@@ -16,15 +16,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PLD logoutpic for KDE.
 
 %description -l pl
-Obrazek okna wylogowania "PLD" dla KDE
+Obrazek okna wylogowania "PLD" dla KDE.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_datadir}/apps/ksmserver/pics
 
 install %{SOURCE0} \
-    $RPM_BUILD_ROOT%{_datadir}/apps/ksmserver/pics/shutdownkonq.png
+	$RPM_BUILD_ROOT%{_datadir}/apps/ksmserver/pics/shutdownkonq.png
 
 %clean
 rm -rf $RPM_BUILD_ROOT
