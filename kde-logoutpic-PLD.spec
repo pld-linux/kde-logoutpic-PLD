@@ -1,5 +1,5 @@
 Summary:	PLD logoutpic for KDE
-Summary(pl):	Obrazek okna wylogowania "PLD" dla KDE
+Summary(pl.UTF-8):   Obrazek okna wylogowania "PLD" dla KDE
 Name:		kde-logoutpic-PLD
 Version:	0.2
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PLD logoutpic for KDE.
 
-%description -l pl
+%description -l pl.UTF-8
 Obrazek okna wylogowania "PLD" dla KDE.
 
 %prep
