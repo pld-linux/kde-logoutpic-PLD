@@ -1,7 +1,7 @@
 Summary:	PLD logoutpic for KDE
 Summary(pl.UTF-8):	Obrazek okna wylogowania "PLD" dla KDE
 Name:		kde-logoutpic-PLD
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	GPL
 Group:		Themes
